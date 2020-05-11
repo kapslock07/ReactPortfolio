@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Container from "./components/Container";
 import Row from "./components/Row";
@@ -16,16 +16,18 @@ function App() {
           <Router>
             <div>
               <NavTabs />
-              <Route exact path="/" component={Home} />
-              <Route exact path="/portfolio" component={Portfolio} />
-              <Route path="/contact" component={Contact} />
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/portfolio" component={Portfolio} />
+                <Route path="/contact" component={Contact} />
+              </Switch>
             </div>
           </Router>
         </Col>
       </Row>
       <Row>
         <Col size="md-12">
-
+            Hello
         </Col>
       </Row>
     </Container >

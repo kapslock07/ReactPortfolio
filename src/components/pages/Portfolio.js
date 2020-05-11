@@ -11,14 +11,14 @@ import PasswordGenerator from '../../images/Password-640x480.png';
 import FitnessTracker from '../../images/fitnessTracker.jpg';
 
 
-
+const cssStuff = {marginTop: "20px", marginBottom: "20px"}
 
 function Portfolio() {
     return (
         <div>
 
             <Header value="Portfolio" />
-            <Row>
+            <Row className="mt-20" style={cssStuff}>
                 <Col size="md-6">
                     <PortfolioItem href="http://quiet-thicket-75299.herokuapp.com/" src={In2uned} alt="in2uned" title="In2uned Music Reviews" />
                 </Col>
