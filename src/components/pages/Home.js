@@ -1,11 +1,12 @@
 import React from "react";
-import headshot from '../../images/headshot.jpg';
+import headshot from '../../headshot.jpg';
 import Header from '../Header';
 
 function Home() {
     return (
-        <div>
-
+        <div className="homeBody">
+            {/* <div class="row">
+                <div class="col-md-3"></div> */}
             <Header value="About Me" />
 
             <img src={headshot} alt="headshot" />

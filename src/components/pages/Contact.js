@@ -26,6 +26,9 @@ function Contact() {
                         <textarea id="message" name="message" required="required"></textarea>
                     </li>
                 </ul >
+                <input type="submit" className="">
+                </input>
+
             </form >
 
 

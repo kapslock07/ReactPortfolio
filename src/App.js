@@ -7,6 +7,11 @@ import Col from "./components/Col";
 import Home from "./components/pages/Home";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
+import Footer from "./components/Footer";
+
+import "./App.css";
+
+
 
 function App() {
   return (
@@ -26,8 +31,8 @@ function App() {
         </Col>
       </Row>
       <Row>
-        <Col size="md-12">
-            Hello
+        <Col size="md-12">]
+        <Footer />
         </Col>
       </Row>
     </Container >
