@@ -4,7 +4,7 @@ body {
 
     /* color: white; */
   /* background: url("../../images/wood_bg.jpg"); */
-  background-image: url("./images/wood_bg.jpg");
+  background-image: url("./wood_bg.jpg");
 }
 
 .navbar {
@@ -13,7 +13,7 @@ body {
 
 .navbar-brand {
   font-family: 'Expletus Sans', cursive;
-    font-size: 38px;
+  font-size: 38px;
 }
 
 h3 {
@@ -22,7 +22,7 @@ h3 {
 
 .homeBody {
   background-color: rgba(0, 0, 0, 0.3);
-padding: 20px;
+  padding: 20px;
 }
 
 p {

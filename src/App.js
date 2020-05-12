@@ -31,8 +31,8 @@ function App() {
         </Col>
       </Row>
       <Row>
-        <Col size="md-12">]
-        <Footer />
+        <Col size="md-12">
+          <Footer />
         </Col>
       </Row>
     </Container >
