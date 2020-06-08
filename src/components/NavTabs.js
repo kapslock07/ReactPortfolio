@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Navbar } from 'react-bootstrap';
 
 function NavTabs() {
     // We'll go into the Hooks API later, for now, we are just using some code
@@ -10,7 +11,7 @@ function NavTabs() {
     return (
 
         <nav className="navbar navbar-expand-lg navbar-dark mb-4">
-            <a className="navbar-brand text-light" >Ryan Kaplan</a>
+            <Navbar.Brand href="/home" className="navbar-brand text-light">Ryan Kaplan</Navbar.Brand>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
