@@ -5,8 +5,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function Home() {
     return (
-        <Container fluid className="mainBody    ">
-            <Row className="header">
+        <Container fluid className="mainBody z-depth-2">
+            <Row className="">
 
                 <Col md={12}>
                     <Header value="About Me" />

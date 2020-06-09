@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Header from '../Header';
 import { MDBAnimation } from "mdbreact";
 import Project from "../Project";
-import Project1 from "../../assets/images/waypoint.png"
+import Project1 from "../../assets/images/waypoint.jpg"
 import Project2 from "../../assets/images/in2uned.jpeg"
 import Project3 from "../../assets/images/tuneMeIn.jpeg"
 import Project4 from "../../assets/images/weatherDash.jpeg"
@@ -15,8 +15,8 @@ import Project6 from "../../assets/images/Password-640x480.png"
 
 function Portfolio() {
     return (
-        <Container fluid className="mainBody">
-            <Row className="header">
+        <Container fluid className="portfolioBody">
+            <Row className="headerBox z-depth-2">
                 <Col md={12}>
                     <Header value="Portfolio" />
                 </Col>
