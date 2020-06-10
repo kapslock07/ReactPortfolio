@@ -16,7 +16,7 @@ import Project6 from "../../assets/images/Password-640x480.png"
 function Portfolio() {
     return (
         <Container fluid className="portfolioBody">
-            <Row className="headerBox z-depth-2">
+            <Row className="headerBox">
                 <Col md={12}>
                     <Header value="Portfolio" />
                 </Col>

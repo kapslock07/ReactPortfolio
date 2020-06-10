@@ -19,6 +19,7 @@ function NavTabs() {
                 <div className="navbar-nav">
                     <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>Home</Link>
                     <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Link>
+                    <Link to="/resume" className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}>Resume</Link>
                     <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact</Link>
                 </div>
             </div>
