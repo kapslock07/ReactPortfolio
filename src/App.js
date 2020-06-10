@@ -15,7 +15,7 @@ function App() {
   return (
     <Container fluid className="mainContainer">
       <Row>
-        <Col md={12}>
+        <Col md={12} className="px-0">
           <Router>
             <div>
               <NavTabs />
