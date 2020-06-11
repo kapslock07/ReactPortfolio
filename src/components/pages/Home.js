@@ -18,6 +18,12 @@ function Home() {
                 </Col>
                 <Col md={7} className="px-4 pt-4 pb-1">
 
+                    {/* BUILD AN "RK" LOGO FOR BRAND IMAGE */}
+
+                    {/* CHANGE DESIGN - DARK BACKGROUND LIGHTER IN CORNER & BOTTOM NAV OBRDER (LIKE HULU)m-maybe charcoal (gradient--> slightly lighter grey in bottom right corner) with plain orange line/accents */}
+
+                    {/* Icons representing characteristics with accordian descripions */}
+
                     <p>My name is Ryan Kaplan. I am looking to make a big change in careers so that I can better provide for my family and love what I do.</p>
 
                     <p>I received a Bachelor of Business Administration degree with a concentration in marketing from the George Washington University in Washington D.C. I also have an MBA in Entrpreneurial Studies from Pace University in NYC.</p>
