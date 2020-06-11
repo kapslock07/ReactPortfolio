@@ -24,13 +24,12 @@ function Home() {
 
                     {/* Icons representing characteristics with accordian descripions */}
 
-                    <p>My name is Ryan Kaplan. I am looking to make a big change in careers so that I can better provide for my family and love what I do.</p>
+                    <p>My name is Ryan Kaplan. I am looking to continue to grow as a developer by applying the skills I have and pushing myself to constantly learn new ones.</p>
 
-                    <p>I received a Bachelor of Business Administration degree with a concentration in marketing from the George Washington University in Washington D.C. I also have an MBA in Entrpreneurial Studies from Pace University in NYC.</p>
+                    <p>I received a Bachelor of Business Administration degree with a concentration in marketing from the George Washington University in Washington D.C.  and an MBA in Entrepreneurial Studies from Pace University in NYC. I just earned a certificate for Full Stack Web Development from Rutgers University in New Jersey.</p>
 
-                    <p>For the last 8 years I have been working in marketing and sales. I believe that my intelligence, creativity, and interests are better served by a career in coding.</p>
+                    <p>For the last 9 years I have been working in marketing and sales, but I believe that my intelligence, creativity, and interests are better served by a career in coding. I am an innovative problem solver and am extremely passionate about coding.</p>
 
-                    <p>I am currently married, have 3 kids, and live in West Orange, NJ. In my free time I love to listen to podcasts and music, see live shows, and play video games.</p>
                 </Col>
             </Row>
         </Container >
