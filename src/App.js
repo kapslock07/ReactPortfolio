@@ -6,6 +6,8 @@ import Home from "./components/pages/Home";
 import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
 import Contact from "./components/pages/Contact";
+import Footer from "./components/Footer";
+
 
 import "./App.css";
 
@@ -24,7 +26,16 @@ function App() {
                 <Route exact path="/portfolio" component={Portfolio} />
                 <Route exact path="/resume" component={Resume} />
                 <Route path="/contact" component={Contact} />
+                <Route path='/github' component={() => {
+                  window.location.href = 'https://github.com/kapslock07';
+                  return null;
+                }} />
+                <Route path='/linkedin' component={() => {
+                  window.location.href = 'https://www.linkedin.com/in/ryankaplan7/';
+                  return null;
+                }} />
               </Switch>
+              <Footer />
             </div>
           </Router>
         </Col>
