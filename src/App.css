@@ -8,14 +8,13 @@ body {
 }
 
 
-
-
 .navbar {
   background-color: rgba(0, 0, 0, 0.4);
   border: 5px solid;
-  border-image-slice: 1;
+  /* border-image-slice: 1; */
   border-width: 0px 0px 5px 0px;
-  border-image-source: linear-gradient(to right, #fa9600, #ff0800);
+  /* border-image-source: linear-gradient(to right, #fa9600, #ff0800); */
+  border-color: rgb(255, 94, 0);
 }
 
 .navbar-brand {
