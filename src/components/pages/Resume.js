@@ -13,7 +13,7 @@ function Resume() {
                 </Col>
             </Row>
             <Row className="resumeBody mt-4 mx-auto">
-                <Col md={12} className="mt-4 text-center">
+                <Col lg={12} className="mt-4 text-center mx-auto">
                     <embed src={ResumeDoc} className="z-depth-2" width="800px" height="1050px" />
                     {/* <img src={ResumeDoc} className="img-fluid" alt="Resume"></img> */}
                 </Col>

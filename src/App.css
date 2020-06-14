@@ -1,20 +1,16 @@
 
 
 body {
-  /* background-image: url("./wood_bg.jpg"); */
-  background-image: linear-gradient(to bottom, white, #a8a8a8);
+  background-image: linear-gradient( 109.6deg,  rgba(44,83,131,1) 18.9%, rgba(95,175,201,1) 91.1% );
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.4);
-  border: 5px solid;
-  /* border-image-slice: 1; */
-  border-width: 0px 0px 5px 0px;
-  /* border-image-source: linear-gradient(to right, #fa9600, #ff0800); */
-  border-color: rgb(255, 94, 0);
+  border: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar-brand {
@@ -23,11 +19,20 @@ font-family: 'Alfa Slab One', cursive;
 font-size: 38px;
 }
 
-h3, h2 {
+.navbar {
+  box-shadow: none;
+}
+
+.navbar-nav {
+  position: absolute;
+  bottom: 0;
+}
+
+.navbar-nav {
   color: white;
   font-family: 'Raleway', sans-serif;
-  /* text-shadow: 2px 2px 5px white; */
 }
+
 
 .mainBody{
   background-color: rgba(0, 0, 0, 0.3);
@@ -48,15 +53,12 @@ h3, h2 {
   padding-bottom:500px;
 }
 
-.header, .icon {
-color: rgb(90, 90, 90)
+.header, .icon, .footer-copyright {
+color: rgb(255, 255, 255)
 }
 
 .project {
-  background-color: rgba(0, 0, 0, 0.3);
-  padding-top: 25px;
-  padding-bottom: 50px;
-  width: 75%;
+  width: 90%;
 }
 
 p {
@@ -65,9 +67,36 @@ font-size: 18px;
 /* font-family: 'Raleway', sans-serif; */
 }
 
-h1 {
-  color: white;
+h2 {
+color:white
+}
+
+.mask{
+  color: black;
   font-family: 'Raleway', sans-serif;
+}
+
+.maskTitle {
+  color: rgba(44,83,131,1)
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: rgba(44,83,131,1);
+
+}
+
+
+.button:hover {
+color:white;
+background-color:rgba(95,175,201,1);
 }
 
 

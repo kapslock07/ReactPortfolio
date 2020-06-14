@@ -8,15 +8,15 @@ function Footer() {
         <Container fluid >
             <Row>
                 <Col md={4} />
-                <Col md={2}>
+                <Col md={1}>
                     <div class="footer-copyright text-center py-5">© 2020
                     </div >
                 </Col>
-                <Col md={1} className="githubIcon my-auto">
+                <Col md={2} className="githubIcon my-auto">
                     <Link
                         to="github">
 
-                        <div className="navBtn mx-4 text-center">
+                        <div className="navBtn text-center">
                             <i className="icon fa fa-2x fa-github"></i>
                             {/* <h5>Github</h5> */}
                         </div>

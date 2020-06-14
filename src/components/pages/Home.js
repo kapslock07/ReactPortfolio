@@ -19,6 +19,11 @@ function Home() {
                 <Col md={7} className="px-4 pt-4 pb-1">
 
                     {/* BUILD AN "RK" LOGO FOR BRAND IMAGE */}
+                    {/* PORTFOLIO -USE LARGER IMGS, ADD LAYER ON HOVER WITH NAME, DESC, TECH, GITHUB LINK */}
+
+                    {/* Build a 404 page */}
+
+                    {/* Build a loading page for external links or get rid of blank page between pages */}
 
                     {/* CHANGE DESIGN - DARK BACKGROUND LIGHTER IN CORNER & BOTTOM NAV OBRDER (LIKE HULU)m-maybe charcoal (gradient--> slightly lighter grey in bottom right corner) with plain orange line/accents */}
 
