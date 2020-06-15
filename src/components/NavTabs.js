@@ -17,10 +17,10 @@ function NavTabs() {
             </button>
             <div className="collapse navbar-collapse text-center justify-content-end" id="navbarNavAltMarkup">
                 <div className="navbar-nav pr-5">
-                    <Link to="/" className={location.pathname === "/" ? "nav-link active mx-3" : "nav-link mx-3"}>Home</Link>
-                    <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active mx-3" : "nav-link mx-3"}>Portfolio</Link>
-                    <Link to="/resume" className={location.pathname === "/resume" ? "nav-link active mx-3" : "nav-link mx-3"}>Resume</Link>
-                    <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active mx-3" : "nav-link mx-3"}>Contact</Link>
+                    <Link to="/" className={location.pathname === "/" ? "nav-link active mx-2" : "nav-link mx-2"}>Home</Link>
+                    <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active mx-2" : "nav-link mx-2"}>Portfolio</Link>
+                    <Link to="/resume" className={location.pathname === "/resume" ? "nav-link active mx-2" : "nav-link mx-2"}>Resume</Link>
+                    <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active mx-2" : "nav-link mx-2"}>Contact</Link>
                 </div>
             </div>
         </nav>

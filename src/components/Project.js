@@ -7,9 +7,9 @@ function Project(props) {
     return (
         <div className="project text-center mx-auto">
             {/* <a href={props.href}> */}
-            <MDBView hover >
+            <MDBView hover zoom >
                 <img src={props.src} alt={props.alt} className="img-fluid z-depth-2" />
-                <MDBMask className="mask" overlay="white-strong">
+                <MDBMask className="mask" overlay="black-strong">
                     <h1 className="maskTitle mt-5">{props.title}</h1>
                     <h3 className="maskTools mt-3">{props.tools}</h3>
                     <h5 className="maskDescription mt-3 px-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h5>
