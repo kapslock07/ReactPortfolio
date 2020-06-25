@@ -13,14 +13,14 @@ function Home() {
                     <Header value="About Me" />
                 </Col>
             </Row>
-            <MDBAnimation type="fadeInDown">
+            <MDBAnimation type="flipInY">
                 <Row>
                     <Col md={12} className="text-center mt-4">
                         <h2>Skills</h2>
                     </Col>
                 </Row>
             </MDBAnimation>
-            <MDBAnimation type="flipInY">
+            <MDBAnimation type="fadeInLeft">
                 <Row className="skillIconRow justify-content-center my-3">
                     <Col md={1} className="text-center">
                         <div>
@@ -54,14 +54,14 @@ function Home() {
                     </Col>
                 </Row>
             </MDBAnimation>
-            <MDBAnimation type="fadeInDown" className="delay-1s">
+            <MDBAnimation type="flipInY" className="delay-1s">
                 <Row>
                     <Col md={12} className="text-center mt-4">
                         <h2>Strengths</h2>
                     </Col>
                 </Row>
             </MDBAnimation>
-            <MDBAnimation type="flipInY" className="delay-1s">
+            <MDBAnimation type="fadeInLeft" className="delay-1s">
                 <Row className="strengthIconRow justify-content-center my-3">
                     <Col md={2} className="text-center">
                         <div>
