@@ -56,8 +56,24 @@ font-size: 38px;
   padding-bottom:500px;
 }
 
-.header, .icon, .footer-copyright {
+.header, .icon, .footer-copyright, .skillIcon, .strengthIcon, .skillIconName {
 color: rgb(255, 255, 255)
+}
+
+.strengthDescription, .skillIconName {
+  color: rgb(255, 255, 255, 0);
+  margin-top: 5px;
+  /* display: none */
+}
+
+.skillIcon:hover + .skillIconName {
+  /* display: block; */
+  color: rgb(255, 255, 255)
+}
+
+.strengthIcon:hover + .strengthDescription {
+  /* display: block; */
+  color: rgb(255, 255, 255)
 }
 
 .project {
@@ -78,6 +94,7 @@ h2 {
 color:white
 }
 
+
 .mask{
   color: white;
   /* color: black; */
@@ -89,7 +106,6 @@ color:white
   color: rgb(0, 191, 255);
 
 }
-
 
 
 .button {
@@ -116,39 +132,39 @@ h5 {
 }
 
 @media only screen and (max-width: 1024px) {
-  iframe {
+  .resume {
 width: 75%;
 height: 925px;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  iframe {
+  .resume {
 width: 100%;
 height: 900px;
   }
 }
 
 @media only screen and (max-width: 720px) {
-  iframe {
+  .resume {
 height: 450px;
   }
 }
 
 @media only screen and (max-width: 675px) {
-  iframe {
+  .resume {
 height: 650px;
   }
 }
 
 @media only screen and (max-width: 375px) {
-  iframe {
+  .resume {
 height: 400px;
   }
 }
 
 @media only screen and (max-width: 350px) {
-  iframe {
+  .resume {
 height: 325px;
   }
 }
