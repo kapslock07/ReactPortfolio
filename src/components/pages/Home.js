@@ -24,14 +24,8 @@ function Home() {
                 <Row className="skillIconRow justify-content-center my-3">
                     <Col md={1} className="text-center">
                         <div>
-                            <MDBIcon fab icon="react" size="4x" className="skillIcon mx-2" />
-                            <h5 className="skillIconName">React</h5>
-                        </div>
-                    </Col>
-                    <Col md={1} className="text-center">
-                        <div>
-                            <MDBIcon fab icon="node" size="4x" className="skillIcon mx-2" />
-                            <h5 className="skillIconName">Node</h5>
+                            <MDBIcon fab icon="js" size="4x" className="skillIcon mx-2" />
+                            <h5 className="skillIconName">Javascript</h5>
                         </div>
                     </Col>
                     <Col md={1} className="text-center">
@@ -42,14 +36,20 @@ function Home() {
                     </Col>
                     <Col md={1} className="text-center">
                         <div>
+                            <MDBIcon fab icon="node" size="4x" className="skillIcon mx-2" />
+                            <h5 className="skillIconName">Node</h5>
+                        </div>
+                    </Col>
+                    <Col md={1} className="text-center">
+                        <div>
                             <MDBIcon fab icon="npm" size="4x" className="skillIcon mx-2" />
                             <h5 className="skillIconName">NPM</h5>
                         </div>
                     </Col>
                     <Col md={1} className="text-center">
                         <div>
-                            <MDBIcon fab icon="js" size="4x" className="skillIcon mx-2" />
-                            <h5 className="skillIconName">Javascript</h5>
+                            <MDBIcon fab icon="react" size="4x" className="skillIcon mx-2" />
+                            <h5 className="skillIconName">React</h5>
                         </div>
                     </Col>
                 </Row>
@@ -72,7 +72,7 @@ function Home() {
                     <Col md={2} className="text-center">
                         <div>
                             <MDBIcon icon="palette" size="4x" className="strengthIcon" />
-                            <h5 className="strengthDescription">User Friendly Design</h5>
+                            <h5 className="strengthDescription">Intuitive UI</h5>
                         </div>
                     </Col>
                 </Row>
