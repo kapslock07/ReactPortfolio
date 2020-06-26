@@ -3,6 +3,13 @@ import headshot from '../../headshot.jpg';
 import Header from '../Header';
 import { Container, Row, Col, Accordion, Card, Button } from 'react-bootstrap';
 import { MDBIcon, MDBAnimation } from "mdbreact";
+import HTML from "../../assets/images/html.png"
+import CSS from "../../assets/images/css.png"
+import Javascript from "../../assets/images/javascript.png"
+import MySQL from "../../assets/images/mysql.png"
+import Mongo from "../../assets/images/mongo.png"
+
+
 
 function Home() {
 
@@ -21,35 +28,64 @@ function Home() {
                 </Row>
             </MDBAnimation>
             <MDBAnimation type="fadeInLeft">
-                <Row className="skillIconRow justify-content-center my-3">
-                    <Col md={1} className="text-center">
+                <Row className="skillIconRow justify-content-center">
+                    <Col md={1} className="text-center mt-3">
                         <div>
-                            <MDBIcon fab icon="js" size="4x" className="skillIcon mx-2" />
-                            <h5 className="skillIconName">Javascript</h5>
+                            <img src={HTML} alt="HTML5" width="60px" height="60px" className="skillIcon mx-2 mt-2" >
+                            </img>
+                            <h5 className="skillIconName mt-4">HTML5</h5>
+                        </div>
+                    </Col>
+                    <Col md={1} className="text-center mt-3">
+                        <div>
+                            <img src={CSS} alt="CSS3" width="60px" height="60px" className="skillIcon mx-2 mt-2" >
+                            </img>
+                            <h5 className="skillIconName mt-4">CSS3</h5>
+                        </div>
+                    </Col>
+                    <Col md={1} className="text-center mt-3">
+                        <div>
+                            <img src={Javascript} alt="Javascript" width="80px" height="80px" className="skillIcon mx-2" >
+                            </img>
+                            <h5 className="skillIconName mt-4">Javascript</h5>
+                        </div>
+                    </Col>
+                    <Col md={1} className="text-center mt-3">
+                        <div>
+                            <MDBIcon fab icon="bootstrap" size="4x" className="skillIcon mt-2" />
+                            <h5 className="skillIconName mt-4">Bootstrap</h5>
+                        </div>
+                    </Col>
+                    <Col md={1} className="text-center mt-3">
+                        <div>
+                            <MDBIcon fab icon="node" size="4x" className="skillIcon mx-2 mt-2" />
+                            <h5 className="skillIconName mt-4">Node</h5>
+                        </div>
+                    </Col>
+                    <Col md={1} className="text-center mt-3">
+                        <div>"
+                            <MDBIcon fab icon="npm" size="4x" className="skillIcon mx-2 mt-2" />
+                            <h5 className="skillIconName mt-4">NPM</h5>
+                        </div>
+                    </Col>
+                    <Col md={1} className="text-center mt-3">
+                        <div>
+                            <MDBIcon fab icon="react" size="4x" className="skillIcon mx-2 mt-2" />
+                            <h5 className="skillIconName mt-4">React</h5>
                         </div>
                     </Col>
                     <Col md={1} className="text-center">
                         <div>
-                            <MDBIcon fab icon="bootstrap" size="4x" className="skillIcon" />
-                            <h5 className="skillIconName">Bootstrap</h5>
+                            <img src={MySQL} alt="MySQL" width="100px" height="100px" className="skillIcon mx-2" >
+                            </img>
+                            <h5 className="skillIconName">MySQL</h5>
                         </div>
                     </Col>
                     <Col md={1} className="text-center">
                         <div>
-                            <MDBIcon fab icon="node" size="4x" className="skillIcon mx-2" />
-                            <h5 className="skillIconName">Node</h5>
-                        </div>
-                    </Col>
-                    <Col md={1} className="text-center">
-                        <div>
-                            <MDBIcon fab icon="npm" size="4x" className="skillIcon mx-2" />
-                            <h5 className="skillIconName">NPM</h5>
-                        </div>
-                    </Col>
-                    <Col md={1} className="text-center">
-                        <div>
-                            <MDBIcon fab icon="react" size="4x" className="skillIcon mx-2" />
-                            <h5 className="skillIconName">React</h5>
+                            <img src={Mongo} alt="MongoDB" width="100px" height="100px" className="skillIcon mx-2" >
+                            </img>
+                            <h5 className="skillIconName">MongoDB</h5>
                         </div>
                     </Col>
                 </Row>
