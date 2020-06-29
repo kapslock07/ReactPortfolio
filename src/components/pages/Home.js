@@ -6,8 +6,13 @@ import { MDBIcon, MDBAnimation } from "mdbreact";
 import HTML from "../../assets/images/html.png"
 import CSS from "../../assets/images/css.png"
 import Javascript from "../../assets/images/javascript.png"
+import Bootstrap from "../../assets/images/bootstrap.png"
+import Node from "../../assets/images/node.png"
+import NPM from "../../assets/images/npm.png"
+import ReactIcon from "../../assets/images/react.png"
 import MySQL from "../../assets/images/mysql.png"
 import Mongo from "../../assets/images/mongo.png"
+import Skills from "../Skills";
 
 
 
@@ -90,7 +95,25 @@ function Home() {
                     </Col>
                 </Row>
             </MDBAnimation>
-            <MDBAnimation type="flipInY" className="delay-1s">
+
+            <MDBAnimation type="fadeInLeft">
+                <Row className="skillIconRow justify-content-center">
+                    <Skills src={HTML} name="HTML5" />
+                    <Skills src={CSS} name="CSS3" />
+                    <Skills src={Javascript} name="Javascript" />
+                    <Skills src={Bootstrap} name="Bootstrap" />
+                    <Skills src={Node} name="Node" />
+                    <Skills src={NPM} name="NPM" />
+                    <Skills src={ReactIcon} name="React" />
+                    <Skills src={MySQL} name="MySQL" />
+                    <Skills src={Mongo} name="Mongo" />
+
+                </Row>
+            </MDBAnimation>
+
+
+
+            {/* <MDBAnimation type="flipInY" className="delay-1s">
                 <Row>
                     <Col md={12} className="text-center mt-4">
                         <h2>Strengths</h2>
@@ -102,17 +125,17 @@ function Home() {
                     <Col md={2} className="text-center">
                         <div>
                             <MDBIcon icon="lightbulb" size="4x" className="strengthIcon" />
-                            <h5 className="strengthDescription">Creative</h5>
+                            <h5 className="strengthDescription mt-4">Creative</h5>
                         </div>
                     </Col>
                     <Col md={2} className="text-center">
                         <div>
                             <MDBIcon icon="palette" size="4x" className="strengthIcon" />
-                            <h5 className="strengthDescription">Intuitive UI</h5>
+                            <h5 className="strengthDescription mt-4">Intuitive UI</h5>
                         </div>
                     </Col>
                 </Row>
-            </MDBAnimation>
+            </MDBAnimation> */}
 
             {/* <Row>
                 <Col md={12} className="text-center">
@@ -129,7 +152,7 @@ function Home() {
             </Row> */}
 
 
-            <MDBAnimation type="fadeInUp" className="delay-2s">
+            <MDBAnimation type="fadeInLeft" className="delay-1s">
                 <Row className="mainBody z-depth-2 mt-4 mx-auto">
                     <Col md={5} className="mt-4 text-center">
                         <img src={headshot} alt="headshot" width="70%" />
