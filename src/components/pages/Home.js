@@ -12,6 +12,8 @@ import NPM from "../../assets/images/npm.png"
 import ReactIcon from "../../assets/images/react.png"
 import MySQL from "../../assets/images/mysql.png"
 import Mongo from "../../assets/images/mongo.png"
+import Mongo2 from "../../assets/images/mongo2.png"
+
 import Skills from "../Skills";
 
 
@@ -98,15 +100,15 @@ function Home() {
 
             <MDBAnimation type="fadeInLeft">
                 <Row className="skillIconRow justify-content-center">
-                    <Skills src={HTML} name="HTML5" />
-                    <Skills src={CSS} name="CSS3" />
-                    <Skills src={Javascript} name="Javascript" />
-                    <Skills src={Bootstrap} name="Bootstrap" />
-                    <Skills src={Node} name="Node" />
-                    <Skills src={NPM} name="NPM" />
-                    <Skills src={ReactIcon} name="React" />
-                    <Skills src={MySQL} name="MySQL" />
-                    <Skills src={Mongo} name="Mongo" />
+                    <Skills src={HTML} name="HTML5" dimension="60px" class="skillIconName pt-2" />
+                    <Skills src={CSS} name="CSS3" dimension="60px" class="skillIconName pt-2" />
+                    <Skills src={Javascript} name="Javascript" dimension="60px" class="skillIconName pt-2" />
+                    <Skills src={Bootstrap} name="Bootstrap" dimension="60px" class="skillIconName pt-2" />
+                    <Skills src={Node} name="Node" dimension="70px" class="skillIconName" />
+                    <Skills src={NPM} name="NPM" dimension="70px" class="skillIconName" />
+                    <Skills src={ReactIcon} name="React" dimension="60px" class="skillIconName pt-2" />
+                    <Skills src={MySQL} name="MySQL" dimension="70px" class="skillIconName" />
+                    <Skills src={Mongo2} name="MongoDB" dimension="60px" class="skillIconName pt-2" />
 
                 </Row>
             </MDBAnimation>
