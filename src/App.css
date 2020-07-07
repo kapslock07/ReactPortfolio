@@ -36,14 +36,55 @@ font-size: 38px;
 .nav-link.active {
 border-bottom: 2px solid currentColor;
 padding-bottom: 0px;
+}
+
+.headshot {
+  width: 80%;
+  float:right
+}
+
+.myName {
+  font-family: 'Cinzel', serif;
+  font-size: 6vw;
+}
+
+.myDetails {
+  color: white;
+  /* padding: 5px; */
+}
+
+.myDescription {
+  color: rgb(74, 210, 255);
+font-weight: 100;
+font-size: 2vw;
+font-family: 'Montserrat', sans-serif;
 
 }
 
-.mainBody{
+.mainBody {
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 20px 20px 50px 20px;
+  padding: 20px;
   width: 75%;
- 
+}
+
+
+ .skillsSection {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0px 25px 0px 25px;
+  width: 75%;
+}
+
+.header, .skillsHeader, .myDescription {
+font-family: 'Montserrat', sans-serif;
+}
+
+.skillsHeader:after {
+  content: ""; /* This is necessary for the pseudo element to work. */ 
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 15%; /* Change this to whatever width you want. */
+  border-bottom: 1px solid; /* This creates the border. Replace black with whatever color you want. */
+
 }
 
 .contactBody {
@@ -62,6 +103,10 @@ padding-bottom: 0px;
 color: rgb(255, 255, 255)
 }
 
+.header {
+  font-size: 50px;
+  font-weight: 200;
+}
 .strengthDescription, .skillIconName {
   color: rgb(255, 255, 255, 0);
   margin-top: 5px;
@@ -89,8 +134,8 @@ color: rgb(255, 255, 255)
 
 p {
 color: white;
-font-size: 18px;
-font-family: 'Raleway', sans-serif;
+font-size: 1.4vw;
+font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -109,9 +154,7 @@ color:white
 }
 
 .maskTitle {
-  /* color: rgba(44,83,131,1); */
   color: rgb(0, 191, 255);
-
 }
 
 

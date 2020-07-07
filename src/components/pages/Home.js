@@ -12,8 +12,6 @@ import NPM from "../../assets/images/npm.png"
 import ReactIcon from "../../assets/images/react.png"
 import MySQL from "../../assets/images/mysql.png"
 import Mongo from "../../assets/images/mongo.png"
-import Mongo2 from "../../assets/images/mongo2.png"
-
 import Skills from "../Skills";
 
 
@@ -27,117 +25,47 @@ function Home() {
                     <Header value="About Me" />
                 </Col>
             </Row>
-            <MDBAnimation type="flipInY">
-                <Row>
-                    <Col md={12} className="text-center mt-4">
-                        <h2>Skills</h2>
-                    </Col>
-                </Row>
-            </MDBAnimation>
-            <MDBAnimation type="fadeInLeft">
-                <Row className="skillIconRow justify-content-center">
-                    <Col md={1} className="text-center mt-3">
-                        <div>
-                            <img src={HTML} alt="HTML5" width="60px" height="60px" className="skillIcon mx-2 mt-2" >
-                            </img>
-                            <h5 className="skillIconName mt-4">HTML5</h5>
+
+            <Row className="my-5">
+                <Col lg={4}>
+                    <MDBAnimation type="fadeInLeft">
+                        <img src={headshot} alt="headshot" className="headshot img-fluid rounded-circle z-depth-4 mx-auto d-block" />
+                    </MDBAnimation>
+                </Col>
+                <Col lg={7} className="my-auto">
+                    <MDBAnimation type="fadeInRight">
+                        <div className="myDetails d-block pb-3 mx-auto">
+                            <div className="myName text-center">Ryan Kaplan</div>
+                            <div className="myDescription text-center">Full Stack Web Developer | MBA</div>
                         </div>
-                    </Col>
-                    <Col md={1} className="text-center mt-3">
-                        <div>
-                            <img src={CSS} alt="CSS3" width="60px" height="60px" className="skillIcon mx-2 mt-2" >
-                            </img>
-                            <h5 className="skillIconName mt-4">CSS3</h5>
-                        </div>
-                    </Col>
-                    <Col md={1} className="text-center mt-3">
-                        <div>
-                            <img src={Javascript} alt="Javascript" width="80px" height="80px" className="skillIcon mx-2" >
-                            </img>
-                            <h5 className="skillIconName mt-4">Javascript</h5>
-                        </div>
-                    </Col>
-                    <Col md={1} className="text-center mt-3">
-                        <div>
-                            <MDBIcon fab icon="bootstrap" size="4x" className="skillIcon mt-2" />
-                            <h5 className="skillIconName mt-4">Bootstrap</h5>
-                        </div>
-                    </Col>
-                    <Col md={1} className="text-center mt-3">
-                        <div>
-                            <MDBIcon fab icon="node" size="4x" className="skillIcon mx-2 mt-2" />
-                            <h5 className="skillIconName mt-4">Node</h5>
-                        </div>
-                    </Col>
-                    <Col md={1} className="text-center mt-3">
-                        <div>"
-                            <MDBIcon fab icon="npm" size="4x" className="skillIcon mx-2 mt-2" />
-                            <h5 className="skillIconName mt-4">NPM</h5>
-                        </div>
-                    </Col>
-                    <Col md={1} className="text-center mt-3">
-                        <div>
-                            <MDBIcon fab icon="react" size="4x" className="skillIcon mx-2 mt-2" />
-                            <h5 className="skillIconName mt-4">React</h5>
-                        </div>
-                    </Col>
-                    <Col md={1} className="text-center">
-                        <div>
-                            <img src={MySQL} alt="MySQL" width="100px" height="100px" className="skillIcon mx-2" >
-                            </img>
-                            <h5 className="skillIconName">MySQL</h5>
-                        </div>
-                    </Col>
-                    <Col md={1} className="text-center">
-                        <div>
-                            <img src={Mongo} alt="MongoDB" width="100px" height="100px" className="skillIcon mx-2" >
-                            </img>
-                            <h5 className="skillIconName">MongoDB</h5>
-                        </div>
-                    </Col>
-                </Row>
+                    </MDBAnimation>
+                </Col>
+            </Row>
+            <MDBAnimation type="fadeInUp" className="delay-1s">
+                <div className="skillsSection  z-depth-2 mx-auto">
+                    <Row>
+                        <Col md={12} className="text-center mt-3">
+                            <MDBAnimation type="fadeInUp" className="delay-1s">
+                                <h2 className="skillsHeader mb-3">Skills</h2>
+                            </MDBAnimation>
+                        </Col>
+                    </Row>
+                    <MDBAnimation type="fadeInUp" className="delay-1s">
+                        <Row className="skillIconRow justify-content-center">
+                            <Skills src={HTML} name="HTML5" dimension="60px" class="skillIconName pt-2" />
+                            <Skills src={CSS} name="CSS3" dimension="60px" class="skillIconName pt-2" />
+                            <Skills src={Javascript} name="Javascript" dimension="60px" class="skillIconName pt-2" />
+                            <Skills src={Bootstrap} name="Bootstrap" dimension="60px" class="skillIconName pt-2" />
+                            <Skills src={Node} name="Node" dimension="70px" class="skillIconName" />
+                            <Skills src={NPM} name="NPM" dimension="70px" class="skillIconName" />
+                            <Skills src={ReactIcon} name="React" dimension="60px" class="skillIconName pt-2" />
+                            <Skills src={MySQL} name="MySQL" dimension="70px" class="skillIconName" />
+                            <Skills src={Mongo} name="MongoDB" dimension="60px" class="skillIconName pt-2" />
+                        </Row>
+                    </MDBAnimation>
+                </div>
             </MDBAnimation>
 
-            <MDBAnimation type="fadeInLeft">
-                <Row className="skillIconRow justify-content-center">
-                    <Skills src={HTML} name="HTML5" dimension="60px" class="skillIconName pt-2" />
-                    <Skills src={CSS} name="CSS3" dimension="60px" class="skillIconName pt-2" />
-                    <Skills src={Javascript} name="Javascript" dimension="60px" class="skillIconName pt-2" />
-                    <Skills src={Bootstrap} name="Bootstrap" dimension="60px" class="skillIconName pt-2" />
-                    <Skills src={Node} name="Node" dimension="70px" class="skillIconName" />
-                    <Skills src={NPM} name="NPM" dimension="70px" class="skillIconName" />
-                    <Skills src={ReactIcon} name="React" dimension="60px" class="skillIconName pt-2" />
-                    <Skills src={MySQL} name="MySQL" dimension="70px" class="skillIconName" />
-                    <Skills src={Mongo2} name="MongoDB" dimension="60px" class="skillIconName pt-2" />
-
-                </Row>
-            </MDBAnimation>
-
-
-
-            {/* <MDBAnimation type="flipInY" className="delay-1s">
-                <Row>
-                    <Col md={12} className="text-center mt-4">
-                        <h2>Strengths</h2>
-                    </Col>
-                </Row>
-            </MDBAnimation>
-            <MDBAnimation type="fadeInLeft" className="delay-1s">
-                <Row className="strengthIconRow justify-content-center my-3">
-                    <Col md={2} className="text-center">
-                        <div>
-                            <MDBIcon icon="lightbulb" size="4x" className="strengthIcon" />
-                            <h5 className="strengthDescription mt-4">Creative</h5>
-                        </div>
-                    </Col>
-                    <Col md={2} className="text-center">
-                        <div>
-                            <MDBIcon icon="palette" size="4x" className="strengthIcon" />
-                            <h5 className="strengthDescription mt-4">Intuitive UI</h5>
-                        </div>
-                    </Col>
-                </Row>
-            </MDBAnimation> */}
 
             {/* <Row>
                 <Col md={12} className="text-center">
@@ -154,12 +82,10 @@ function Home() {
             </Row> */}
 
 
-            <MDBAnimation type="fadeInLeft" className="delay-1s">
+            <MDBAnimation type="fadeInUp" className="delay-1s">
                 <Row className="mainBody z-depth-2 mt-4 mx-auto">
-                    <Col md={5} className="mt-4 text-center">
-                        <img src={headshot} alt="headshot" width="70%" />
-                    </Col>
-                    <Col md={7} className="px-4 pt-4 pb-1">
+
+                    <Col md={12} className="px-4 pt-4 pb-1 text-center">
 
                         {/* BUILD AN "RK" LOGO FOR BRAND IMAGE */}
 
@@ -171,7 +97,6 @@ function Home() {
 
                         {/* Build a loading page for external links or get rid of blank page between pages */}
 
-                        {/* Icons representing characteristics with accordian descripions */}
 
                         <p>My name is Ryan Kaplan. I am looking to continue to grow as a developer by applying the strengths I have and pushing myself to constantly learn new ones.</p>
 
