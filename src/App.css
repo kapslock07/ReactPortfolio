@@ -13,22 +13,31 @@ body {
   /* border-color: rgba(255, 255, 255, 0.5); */
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255));
-
 }
 
 .navbar-brand {
-font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cinzel', serif;
+/* font-family: 'Alfa Slab One', cursive; */
 /* font-family: 'Comfortaa', cursive; */
-font-size: 38px;
+/* font-size: 38px; */
 }
 
+.brandInitials {
+  /* font-family: 'Alfa Slab One', cursive; */
+  font-size: 50px;
+}
+
+.brandName {
+  font-size: 15px;
+
+}
 .navbar {
   box-shadow: none;
 }
 
 .navbar-nav {
   position: relative;
-  bottom: -15px;
+  bottom: -30px;
   color: white;
   font-family: 'Raleway', sans-serif;
 }
@@ -74,7 +83,7 @@ font-family: 'Montserrat', sans-serif;
   width: 75%;
 }
 
-.header, .skillsHeader, .myDescription {
+.header, .skillsHeader {
 font-family: 'Montserrat', sans-serif;
 }
 
