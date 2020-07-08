@@ -23,7 +23,7 @@ function Portfolio() {
             </Row>
             <MDBAnimation type="fadeInUp">
                 <Row className="justify-content-center">
-                    <Col xl={5} className="mt-5">
+                    <Col xl={5} className="leftProject mt-5">
                         <Project href="https://ancient-dusk-51587.herokuapp.com/" src={Project1} alt="waypoint" title="Waypoint" tools="React" github="https://github.com/kapslock07/Waypoint" />
                     </Col>
                     <Col xl={5} className="mt-5">
@@ -33,7 +33,7 @@ function Portfolio() {
             </MDBAnimation>
             <MDBAnimation type="fadeInUp" className="delay-1s">
                 <Row className="justify-content-center">
-                    <Col xl={5} className="mt-5">
+                    <Col xl={5} className="leftProject mt-5">
                         <Project href="https://coreysalva.github.io/tune-me-in/" src={Project3} alt="Tune Me In" title="Tune Me In" tools="Javascript" github="https://github.com/kapslock07/TuneMeIn" />
                     </Col>
                     <Col xl={5} className="mt-5">
@@ -43,7 +43,7 @@ function Portfolio() {
             </MDBAnimation>
             <MDBAnimation type="fadeInUp" className="delay-2s">
                 <Row className="justify-content-center">
-                    <Col xl={5} className="mt-5">
+                    <Col xl={5} className="leftProject  mt-5">
                         <Project href="https://kapslock07.github.io/WorkDayScheduler/" src={Project5} alt="Day Planner" title="Day Planner" tools="Javascript" github="https://github.com/kapslock07/WorkDayScheduler" />
                     </Col>
                     <Col xl={5} className="mt-5">

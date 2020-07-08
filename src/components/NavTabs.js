@@ -14,7 +14,7 @@ function NavTabs() {
             <Navbar.Brand href="/" className="navbar-brand text-light">
                 <div className="text-center">
                     <div className="brandInitials">R|K</div>
-                    <div className="brandName">Ryan Kaplan</div>
+                    <div className="brandName ml-2">Ryan Kaplan</div>
                 </div>
             </Navbar.Brand>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

@@ -13,9 +13,10 @@ function Contact() {
             </Row>
             <Row className="ml-5 contactBody mt-5 z-depth-2 mx-auto texgt-light" >
                 <Col md={12}>
-                    <a href="mailto:ryankaplan7@gmail.com"><h2>Email: ryankaplan7@gmail.com</h2></a>
+                    <h1 className="subHeader text-center">Ready to work together?</h1>
+                    <a href="mailto:ryankaplan7@gmail.com"><h2>SHOOT ME AN EMAIL: ryankaplan7@gmail.com</h2></a>
                     <br />
-                    <a href="tel:631-662-2604"><h2>Phone: 631-662-2604</h2></a>
+                    <a href="tel:631-662-2604"><h2>CALL MY CELL: 631-662-2604</h2></a>
 
 
 
