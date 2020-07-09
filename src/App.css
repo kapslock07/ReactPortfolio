@@ -159,7 +159,9 @@ h2 {
 color:white
 }
 
-
+.leftProject {
+  /* float:right */
+}
 .mask{
   color: white;
   /* color: black; */
@@ -168,20 +170,43 @@ color:white
 
 .maskTitle {
   color: rgb(0, 191, 255);
+  font-size: 3vw;
+  /* font-weight: bold; */
 }
 
+.maskTitle:after {
+  content: ""; /* This is necessary for  the pseudo element to work. */ 
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 25%; /* Change this to whatever width you want. */
+  border-bottom: 3px solid; /* This creates the border. Replace black with whatever color you want. */
+
+}
+
+.maskTools {
+  font-size: 2vw;
+    font-weight: bold;
+}
+
+.maskDescription {
+  font-size: 1.3vw;
+}
+
+.myRole {
+  font-size: 1.1vw;
+}
 
 .button {
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 1vw 2vw;
   text-align: center;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1vw;
   margin: 4px 2px;
   cursor: pointer;
   background-color: rgba(44,83,131,1);
-
+width: 80%
 }
 
 
