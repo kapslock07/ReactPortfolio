@@ -15,7 +15,7 @@ function Project(props) {
                     <div className="maskTitle mt-3">{props.title}</div>
                     <div className="maskTools mt-3">{props.tools}</div>
                     <div className="maskDescription my-3 px-4"><em>{props.description}</em></div>
-                    <div className="myRole my-3">My Role: {props.role}</div>
+                    <div className="myRole my-4"><span className="myRoleLabel">My Role: </span>{props.role}</div>
                     <Row className="justify-content-center">
                         <Col xs={5}>
                             <a href={props.href} className="button siteBtn mx-3">View Site</a>

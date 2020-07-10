@@ -184,7 +184,7 @@ color:white
 }
 
 .maskTools {
-  font-size: 2vw;
+  font-size: 1.5vw;
     font-weight: bold;
 }
 
@@ -194,6 +194,11 @@ color:white
 
 .myRole {
   font-size: 1.1vw;
+color: white}
+
+.myRoleLabel {
+  color: rgb(0, 191, 255);
+  font-weight: 900;
 }
 
 .button {

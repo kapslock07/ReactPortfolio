@@ -24,17 +24,17 @@ function Portfolio() {
             <MDBAnimation type="fadeInUp">
                 <Row className="justify-content-center">
                     <Col xl={5} className="leftProject mt-5">
-                        <Project href="https://ancient-dusk-51587.herokuapp.com/" src={Project1} alt="waypoint" title="Waypoint" tools="React/MySQL/Express/Node" role="Front-End/UI Design/Nav, Home, & Profile Components" github="https://github.com/WarriorofZarona/media-matcher" description="Waypoint is a social networking platform and instant messanger for gamers looking to connect with others who play the same games." />
+                        <Project href="https://ancient-dusk-51587.herokuapp.com/" src={Project1} alt="waypoint" title="Waypoint" tools="React/JSX/MySQL/Express/Node" role="Front-End/UI Design/Components/Search & Sort" github="https://github.com/WarriorofZarona/media-matcher" description="Waypoint is a social networking platform and instant messanger for gamers looking to connect with other people who play the same games." />
                     </Col>
                     <Col xl={5} className="mt-5">
-                        <Project href="http://quiet-thicket-75299.herokuapp.com/" src={Project2} alt="in2uned" title="In2uned" tools="JS/Handlebars" github="https://github.com/KantKontrol/In2uned" />
+                        <Project href="http://quiet-thicket-75299.herokuapp.com/" src={Project2} alt="in2uned" title="In2uned" tools="JS/Handlebars/MongoDB/Mongoose/Express" role="Front-End/UI Design/Layouts & Views" github="https://github.com/KantKontrol/In2uned" description="In2uned is a music review site that uses Spotify's database and music player. Users can give songs up to 5 stars as well as a detailed written review" />
                     </Col>
                 </Row>
             </MDBAnimation>
             <MDBAnimation type="fadeInUp" className="delay-1s">
                 <Row className="justify-content-center">
                     <Col xl={5} className="leftProject mt-5">
-                        <Project href="https://coreysalva.github.io/tune-me-in/" src={Project3} alt="Tune Me In" title="Tune Me In" tools="Javascript" github="https://github.com/coreysalva/tune-me-in" />
+                        <Project href="https://coreysalva.github.io/tune-me-in/" src={Project3} alt="Tune Me In" title="Tune Me In" tools="Javascript/jQuery/Materialize/APIs" role="API Requests/Display Results" github="https://github.com/coreysalva/tune-me-in" description="Search YouTube for songs, playlists. The app will display video results with easy to copy and share links as well as artist info." />
                     </Col>
                     <Col xl={5} className="mt-5">
                         <Project href="https://kapslock07.github.io/WeatherDashboard/" src={Project4} alt="Weather Dashboard" title="Weather Dashboard" tools="Javascript" github="https://github.com/kapslock07/WeatherDashboard" />
