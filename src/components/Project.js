@@ -14,8 +14,8 @@ function Project(props) {
                 <MDBMask className="mask" overlay="black-strong">
                     <div className="maskTitle mt-3">{props.title}</div>
                     <div className="maskTools mt-3">{props.tools}</div>
-                    <div className="maskDescription my-3 px-4"><em>{props.description}</em></div>
-                    <div className="myRole my-4"><span className="myRoleLabel">My Role: </span>{props.role}</div>
+                    <div className="maskDescription my-3 px-4">{props.description}</div>
+                    <div className="myRole my-4"><em><span className="myRoleLabel">My Role: </span>{props.role}</em></div>
                     <Row className="justify-content-center">
                         <Col xs={5}>
                             <a href={props.href} className="button siteBtn mx-3">View Site</a>

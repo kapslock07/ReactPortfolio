@@ -162,16 +162,16 @@ color:white
 .leftProject {
   /* float:right */
 }
+
 .mask{
   color: white;
   /* color: black; */
-  font-family: 'Raleway', sans-serif;
 }
 
 .maskTitle {
   color: rgb(0, 191, 255);
   font-size: 3vw;
-  /* font-weight: bold; */
+  font-family: 'Raleway', sans-serif;
 }
 
 .maskTitle:after {
@@ -179,22 +179,28 @@ color:white
   display: block; /* This will put the pseudo element on its own line. */
   margin: 0 auto; /* This will center the border. */
   width: 25%; /* Change this to whatever width you want. */
-  border-bottom: 3px solid; /* This creates the border. Replace black with whatever color you want. */
-
+  border-bottom: 2px solid; /* This creates the border. Replace black with whatever color you want. */
+  color:white
 }
 
 .maskTools {
+  color: rgb(0, 191, 255);
   font-size: 1.5vw;
     font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .maskDescription {
   font-size: 1.3vw;
+  font-family: 'Montserrat', sans-serif;
+  
 }
 
 .myRole {
   font-size: 1.1vw;
-color: white}
+color: white;
+font-family: 'Montserrat', sans-serif;
+}
 
 .myRoleLabel {
   color: rgb(0, 191, 255);

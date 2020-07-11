@@ -37,17 +37,17 @@ function Portfolio() {
                         <Project href="https://coreysalva.github.io/tune-me-in/" src={Project3} alt="Tune Me In" title="Tune Me In" tools="Javascript/jQuery/Materialize/APIs" role="API Requests/Display Results" github="https://github.com/coreysalva/tune-me-in" description="Search YouTube for songs, playlists. The app will display video results with easy to copy and share links as well as artist info." />
                     </Col>
                     <Col xl={5} className="mt-5">
-                        <Project href="https://kapslock07.github.io/WeatherDashboard/" src={Project4} alt="Weather Dashboard" title="Weather Dashboard" tools="Javascript" github="https://github.com/kapslock07/WeatherDashboard" />
+                        <Project href="https://kapslock07.github.io/WeatherDashboard/" src={Project4} alt="Weather Dashboard" title="Weather Dashboard" tools="Javascript/jQuery/AJAX/localStorage" role="Sole Developer" github="https://github.com/kapslock07/WeatherDashboard" description="Weather application that allows users view weather data for any city and stores search history locally. Previous searches can be clicked on for updated data on those cities." />
                     </Col>
                 </Row>
             </MDBAnimation>
             <MDBAnimation type="fadeInUp" className="delay-2s">
                 <Row className="justify-content-center">
                     <Col xl={5} className="leftProject  mt-5">
-                        <Project href="https://kapslock07.github.io/WorkDayScheduler/" src={Project5} alt="Day Planner" title="Day Planner" tools="Javascript" github="https://github.com/kapslock07/WorkDayScheduler" />
+                        <Project href="https://kapslock07.github.io/WorkDayScheduler/" src={Project5} alt="Day Planner" title="Day Planner" tools="Javascript/jQuery/Moment.js/Bootstrap" role="Sole Developer" github="https://github.com/kapslock07/WorkDayScheduler" description="A calendar application featuring dynamically updated HTML and CSS that allows the user to save events on local storage." />
                     </Col>
                     <Col xl={5} className="mt-5">
-                        <Project href="http://kapslock07.github.io/PasswordGenerator/" src={Project6} alt="Password Generator" title="Password Generator" tools="Javascript" github="https://github.com/kapslock07/WeatherDashboard" />
+                        <Project href="http://kapslock07.github.io/PasswordGenerator/" src={Project6} alt="Password Generator" title="Password Generator" tools="HTML/CSS/Javascript" role="Sole Developer" github="https://github.com/kapslock07/WeatherDashboard" description="An application that generates a random password based on user-selected criteria from prompts." />
                     </Col>
                 </Row >
             </MDBAnimation>
