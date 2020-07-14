@@ -101,7 +101,7 @@ font-family: 'Montserrat', sans-serif;
 
 .contactBody {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
-  padding: 50px;
+  padding: 40px;
   width: 75%;
   color: white;
 
@@ -241,6 +241,7 @@ font-size: 3vw;
 
 .contactRow {
   margin-top: 5%;
+  margin-left: 18%
 }
 
 .contactEmail, .contactPhone {
