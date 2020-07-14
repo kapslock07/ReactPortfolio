@@ -35,7 +35,9 @@ function Home() {
                     <MDBAnimation type="fadeInRight">
                         <div className="myDetails d-block pb-3 mx-auto">
                             <div className="myName text-center">Ryan Kaplan</div>
-                            <div className="myDescription text-center">Full Stack Web Developer | Marketing Expertise</div>
+                            <MDBAnimation type="fadeInRight">
+                                <div className="myDescription text-center">Full Stack Web Developer | Marketing Expertise</div>
+                            </MDBAnimation>
                         </div>
                     </MDBAnimation>
                 </Col>
@@ -45,12 +47,12 @@ function Home() {
                     <Row>
                         <Col md={12} className="text-center mt-3">
                             <MDBAnimation type="fadeInUp" className="delay-1s">
-                                <h2 className="skillsHeader mb-3">Technical Skills</h2>
+                                <h2 className="skillsHeader mb-4">Technical Skills</h2>
                             </MDBAnimation>
                         </Col>
                     </Row>
                     <MDBAnimation type="fadeInUp" className="delay-1s">
-                        <Row className="skillIconRow justify-content-center mb-5">
+                        <Row className="skillIconRow justify-content-center mb-5 text-center">
                             <Skills src={HTML} name="HTML5" dimension="60px" class="skillIconName pt-2" />
                             <Skills src={CSS} name="CSS3" dimension="60px" class="skillIconName pt-2" />
                             <Skills src={Javascript} name="Javascript" dimension="60px" class="skillIconName pt-2" />
