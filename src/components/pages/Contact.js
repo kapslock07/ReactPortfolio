@@ -13,14 +13,21 @@ function Contact() {
             </Row>
             <Row className="ml-5 contactBody mt-5 z-depth-2 mx-auto texgt-light" >
                 <Col md={12}>
-                    <h1 className="subHeader text-center">Ready to work together?</h1>
-                    <a href="mailto:ryankaplan7@gmail.com"><h2>SHOOT ME AN EMAIL: ryankaplan7@gmail.com</h2></a>
-                    <br />
-                    <a href="tel:631-662-2604"><h2>CALL MY CELL: 631-662-2604</h2></a>
-
-
-
+                    <div className="subHeader text-center">Ready to work together?</div>
+                    <div className="contactRow">
+                        <a href="mailto:ryankaplan7@gmail.com">
+                            <i className="fas fa-paper-plane fa-3x contactEmail"></i>
+                            <div className="contactEmail ml-3">ryankaplan7@gmail.com</div>
+                        </a>
+                    </div>
+                    <div className="contactRow">
+                        <a href="tel:631-662-2604">
+                            <i class="fas fa-phone fa-3x contactPhone"></i>
+                            <div className="contactPhone ml-3">631-662-2604</div>
+                        </a>
+                    </div>
                 </Col>
+
             </Row>
         </Container >
     );

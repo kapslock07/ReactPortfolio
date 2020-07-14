@@ -41,7 +41,7 @@ body {
   bottom: -30px;
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .nav-link.active {
@@ -236,6 +236,18 @@ h5 {
 .subHeader {
 margin-bottom: 4vw;
 color: rgb(0, 191, 255);
+font-size: 3vw;
+}
+
+.contactRow {
+  margin-top: 5%;
+}
+
+.contactEmail, .contactPhone {
+  display: inline-block;
+  color: white;
+  font-size: 2vw;
+
 }
 
 @media only screen and (max-width: 1024px) {
