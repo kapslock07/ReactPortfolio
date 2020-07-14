@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 function Footer() {
     return (
         <Container fluid >
-            <Row>
+            <Row className="mt-5">
                 <Col md={4} />
                 <Col md={1}>
-                    <div class="footer-copyright text-center py-5">© 2020
+                    <div class="footer-copyright text-center my-3">© 2020
                     </div >
                 </Col>
                 <Col md={2} className="githubIcon my-auto">
@@ -17,7 +17,7 @@ function Footer() {
                         to="github">
 
                         <div className="navBtn text-center">
-                            <i className="icon fa fa-2x fa-github"></i>
+                            <i className="icon fa fa-2x fa-github my-3"></i>
                             {/* <h5>Github</h5> */}
                         </div>
                     </Link>
@@ -28,7 +28,7 @@ function Footer() {
                         to="linkedin">
 
                         <div className="navBtn mx-4 text-center">
-                            <i className="icon fa fa-2x fa-linkedin"></i>
+                            <i className="icon fa fa-2x fa-linkedin my-3"></i>
                         </div>
                     </Link>                </Col>
                 <Col md={4} />
