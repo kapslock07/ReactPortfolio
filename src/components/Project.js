@@ -24,6 +24,7 @@ function Project(props) {
                             <a href={props.github} className="button githubBtn mx-3">View Github</a>
                         </Col>
                     </Row   >
+                    <Row className="login justify-content-center">{props.login}</Row>
                 </MDBMask>
             </MDBView>
             {/* </a> */}

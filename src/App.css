@@ -172,7 +172,7 @@ color:white
 
 .maskTitle {
   color: rgb(0, 191, 255);
-  font-size: 3vw;
+  font-size: clamp(15px, 3vw, 42px);
   font-family: 'Raleway', sans-serif;
 }
 
@@ -187,19 +187,19 @@ color:white
 
 .maskTools {
   color: rgb(0, 191, 255);
-  font-size: 1.5vw;
+  font-size: clamp(10px, 1.5vw, 40px);
     font-weight: bold;
   font-family: 'Montserrat', sans-serif;
 }
 
 .maskDescription {
-  font-size: 1.3vw;
+  font-size: clamp(7px, 1.2vw, 24px);
   font-family: 'Montserrat', sans-serif;
   
 }
 
 .myRole {
-  font-size: 1.1vw;
+  font-size: clamp(8px, 1.1vw, 24px);
 color: white;
 font-family: 'Montserrat', sans-serif;
 }
@@ -215,7 +215,7 @@ font-family: 'Montserrat', sans-serif;
   padding: 1vw 2vw;
   text-align: center;
   display: inline-block;
-  font-size: 1vw;
+  font-size: clamp(8px, 1vw, 24px);
   margin: 4px 2px;
   cursor: pointer;
   background-color: rgba(44,83,131,1);
@@ -228,6 +228,9 @@ color:white;
 background-color:rgba(95,175,201,1);
 }
 
+.login {
+  font-size: clamp(7px, 1vw, 24px);
+}
 
 h5 {
   font-weight: 700;

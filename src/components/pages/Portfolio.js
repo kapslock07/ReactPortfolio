@@ -28,7 +28,7 @@ function Portfolio() {
             <Slide direction="top" cascade>
                 <Row className="justify-content-center">
                     <Col xl={5} className="leftProject mt-5">
-                        <Project href="https://ancient-dusk-51587.herokuapp.com/" src={Project1} alt="waypoint" title="Waypoint" tools="React/JSX/MySQL/Express/Node/MDBoostrap" role="Front-End/UI Design/Components/Search & Sort" github="https://github.com/WarriorofZarona/media-matcher" description="Waypoint is a social networking platform and instant messenger for gamers looking to connect with other people who play the same games." />
+                        <Project href="https://ancient-dusk-51587.herokuapp.com/" src={Project1} alt="waypoint" title="Waypoint" tools="React/JSX/MySQL/Express/Node/MDBoostrap" role="Front-End/UI Design/Components/Search & Sort" github="https://github.com/WarriorofZarona/media-matcher" description="Waypoint is a social networking platform and instant messenger for gamers looking to connect with other people who play the same games." login="To login please use 'guest@guest.com' for email and 'guest' for password" />
                     </Col>
                     <Col xl={5} className="mt-5">
                         <Project href="http://quiet-thicket-75299.herokuapp.com/" src={Project2} alt="in2uned" title="In2uned" tools="Handlebars/MySQL/Express" tools2="Passport/jQuery/Bootstrap" role="Front-End/UI Design/Layouts & Views" github="https://github.com/KantKontrol/In2uned" description="This application connects the user to the Spotify API via their account, then allows users to review songs and share them on their profile." />
