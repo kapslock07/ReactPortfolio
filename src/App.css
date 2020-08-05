@@ -38,7 +38,6 @@ body {
 
 .navbar-nav {
   position: relative;
-  bottom: -30px;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -51,12 +50,13 @@ padding-bottom: 0px;
 
 .headshot {
   width: 60%;
-  float:right
 }
 
 .myName {
   font-family: 'Cinzel', serif;
-  font-size: 6vw;
+  /* font-size: 6vw; */
+  font-size: clamp(1.8rem, 4vw, 5rem);
+
 }
 
 .myDetails {
@@ -67,7 +67,7 @@ padding-bottom: 0px;
 .myDescription {
   color: rgb(74, 210, 255);
   font-weight: 100;
-  font-size: 2vw;
+  font-size: clamp(0.8rem, 2vw, 1.8rem);
   font-family: 'Montserrat', sans-serif;
 
 }
@@ -88,6 +88,8 @@ padding-bottom: 0px;
 
 .header, .skillsHeader {
 font-family: 'Montserrat', sans-serif;
+font-size: clamp(1rem, 2vw, 5rem);
+
 }
 
 .skillsHeader:after {
@@ -111,12 +113,12 @@ font-family: 'Montserrat', sans-serif;
   padding-bottom:500px;
 }
 
-.header, .icon, .footer-copyright, .skillIcon, .strengthIcon, .skillIconName {
+.header, .skillsHeader, .icon, .footer-copyright, .skillIcon, .strengthIcon, .skillIconName {
 color: rgb(255, 255, 255)
 }
 
 .header {
-  font-size: 50px;
+  /* font-size: 50px; */
   font-weight: 200;
 }
 .strengthDescription, .skillIconName {
@@ -149,7 +151,9 @@ color: rgb(255, 255, 255)
 
 p {
 color: white;
-font-size: 1.4vw;
+/* font-size: 1.4vw; */
+font-size: clamp(0.8rem, 1.4vw, 1.8rem);
+
 font-family: 'Montserrat', sans-serif;
 }
 
@@ -291,5 +295,14 @@ height: 400px;
 height: 325px;
   }
 }
+
+@media only screen and (min-width: 992px) {
+  .headshot {
+    float:right
+  }
+  .navbar-nav {
+    bottom: -30px;
+  }
+  }
 
 

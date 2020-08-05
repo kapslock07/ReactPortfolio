@@ -47,7 +47,7 @@ function Home() {
                     <Row>
                         <Col md={12} className="text-center mt-3">
                             <MDBAnimation type="fadeInUp" className="delay-1s">
-                                <h2 className="skillsHeader mb-4">Technical Skills</h2>
+                                <div className="skillsHeader mb-4">Technical Skills</div>
                             </MDBAnimation>
                         </Col>
                     </Row>
