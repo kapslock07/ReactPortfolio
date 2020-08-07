@@ -1,6 +1,7 @@
 import React from "react";
 import Header from '../Header';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 function Contact() {
@@ -24,6 +25,18 @@ function Contact() {
                         <a href="tel:631-662-2604">
                             <i class="fas fa-phone fa-3x contactPhone"></i>
                             <div className="contactPhone ml-3">631-662-2604</div>
+                        </a>
+                    </div>
+                    <div className="contactRow">
+                        <a href="https://www.linkedin.com/in/ryankaplan7/">
+                            <i class="icon fa fa-2x fa-linkedin"></i>
+                            <div className="contactPhone ml-3">LinkedIn</div>
+                        </a>
+                    </div>
+                    <div className="contactRow">
+                        <a href="https://github.com/kapslock07">
+                            <i class="icon fa fa-2x fa-github"></i>
+                            <div className="contactPhone ml-3">Github</div>
                         </a>
                     </div>
                 </Col>

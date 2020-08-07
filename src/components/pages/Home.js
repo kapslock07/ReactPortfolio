@@ -52,7 +52,7 @@ function Home() {
                         </Col>
                     </Row>
                     <MDBAnimation type="fadeInUp" className="delay-1s">
-                        <Row className="skillIconRow justify-content-center mb-5 text-center">
+                        <Row className="skillIconRow justify-content-center mb-2 text-center">
                             <Skills src={HTML} name="HTML5" dimension="60px" class="skillIconName pt-2" />
                             <Skills src={CSS} name="CSS3" dimension="60px" class="skillIconName pt-2" />
                             <Skills src={Javascript} name="Javascript" dimension="60px" class="skillIconName pt-2" />
@@ -84,30 +84,28 @@ function Home() {
 
 
             <MDBAnimation type="fadeInUp" className="delay-1s">
-                <Row className="mainBody mt-4 mx-auto">
+                <Row className="mainBody mt-2 mx-auto">
 
                     <Col md={12} className="px-4 pt-4 pb-1 text-center">
 
-                        {/* BUILD AN "RK" LOGO FOR BRAND IMAGE */}
-
                         {/* PORTFOLIO -USE LARGER IMGS */}
-
-                        {/* Make more responsive - especially portfolio box overlay and descriptons (don't always fit) */}
 
                         {/* Build a 404 page */}
 
                         {/* Build a loading page for external links or get rid of blank page between pages */}
 
-                        <MDBAnimation type="fadeInUp" className="delay-1s">
-                            <p>My name is Ryan Kaplan. I am looking to continue to grow as a developer by applying the strengths I have and pushing myself to constantly learn new ones.</p>
+                        <MDBAnimation type="fadeInUp" className="delay-2s">
+                            <p>My name is Ryan Kaplan. I am a creative full stack web developer leveraging a marketing and sales background to create intuitive and responsive applications with a focus on UI/UX.</p>
                         </MDBAnimation>
-                        <MDBAnimation type="fadeInUp" className="delay-1s">
-                            <p>I received a Bachelor of Business Administration degree with a concentration in marketing from the George Washington University in Washington D.C.  and an MBA in Entrepreneurial Studies from Pace University in NYC. I just earned a certificate for Full Stack Web Development from Rutgers University in New Jersey.</p>
+                        <MDBAnimation type="fadeInUp" className="delay-2s">
+                            <p>I received a Bachelor of Business Administration degree with a concentration in marketing from the George Washington University in Washington D.C.  and an MBA in Entrepreneurial Studies from Pace University in NYC. These experiences helped me understand what a business needs to succeed and how to market its services to the public, but they didn’t give me the technical skills to create a platform for these businesses to connect with customers myself.</p>
                         </MDBAnimation>
-                        <MDBAnimation type="fadeInUp" className="delay-1s">
-                            <p>For the last 9 years I have been working in marketing and sales, but I believe that my intelligence, creativity, and interests are better served by a career in coding. I am an innovative problem solver and am extremely passionate about coding.</p>
+                        <MDBAnimation type="fadeInUp" className="delay-2s">
+                            <p>I just earned a certificate for Full Stack Web Development from Rutgers University in New Jersey to give me that ability.  I completed over 100 hours of hands-on object-oriented programming challenges individually and in groups. My final two projects demonstrate my coding abilities as well as user-friendly design.</p>
                         </MDBAnimation>
-
+                        <MDBAnimation type="fadeInUp" className="delay-2s">
+                            <p>My education, experience in problem solving to overcome challenges in individual and group settings, and passion for coding make me an ideal employee/partner to work with.</p>
+                        </MDBAnimation>
                     </Col>
                 </Row>
             </MDBAnimation>

@@ -14,7 +14,6 @@ function Footer() {
 
                         <div className="navBtn text-center">
                             <i className="icon fa fa-2x fa-github my-3"></i>
-                            {/* <h5>Github</h5> */}
                         </div>
                     </Link>
                     {/* <MDBIcon fa icon="github" href="https://github.com/kapslock07" /> */}
