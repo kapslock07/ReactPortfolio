@@ -250,7 +250,7 @@ font-size: 3vw;
   margin-left: 18%
 }
 
-.contactEmail, .contactPhone {
+.contactEmail, .contactPhone, .contactGithub, .contactLinkedin {
   display: inline-block;
   color: white;
   font-size: 2vw;
