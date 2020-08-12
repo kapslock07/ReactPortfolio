@@ -250,7 +250,6 @@ font-size: 3vw;
 
 .contactRow {
   margin-top: 5%;
-  margin-left: 18%
 }
 
 .contactEmail, .contactPhone, .contactGithub, .contactLinkedin {
@@ -305,6 +304,16 @@ height: 325px;
   .navbar-nav {
     bottom: -30px;
   }
+  .contactRow {
+    margin-left: 10%
+  }
+  }
+
+  @media only screen and (max-width: 991px) {
+  
+    .contactRow {
+      margin-left: 10%
+    }
   }
 
 

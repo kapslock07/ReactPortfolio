@@ -12,7 +12,7 @@ function Contact() {
                     <Header value="Contact" />
                 </Col>
             </Row>
-            <Row className="ml-5 contactBody mt-5 z-depth-2 mx-auto text-light" >
+            <Row className="contactBody mt-5 z-depth-2 mx-auto text-light" >
                 <Col md={12}>
                     <div className="subHeader text-center">Ready to work together?</div>
                     <div className="contactRow">
