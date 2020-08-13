@@ -40,7 +40,7 @@ body {
   position: relative;
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .nav-link.active {
@@ -303,6 +303,7 @@ height: 325px;
   }
   .navbar-nav {
     bottom: -30px;
+    padding-right: 3%;
   }
   .contactRow {
     margin-left: 10%
