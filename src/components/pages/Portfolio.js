@@ -28,7 +28,7 @@ function Portfolio() {
             <Slide direction="top" cascade>
                 <Row className="justify-content-center">
                     <Col xl={5} className="leftProject mt-5">
-                        <Project href="https://ancient-dusk-51587.herokuapp.com/" src={Project1} alt="waypoint" title="Waypoint" tools="React/JSX/MySQL/Express/Node/MDBoostrap" role="Front-End/UI Design/Components/Search & Sort" github="https://github.com/kapslock07/Waypoint" description="Waypoint is a social networking platform and instant messenger for gamers looking to connect with other people who play the same games." login="To login please use 'guest@guest.com' for email and 'guest' for password" />
+                        <Project href="https://ancient-dusk-51587.herokuapp.com/" src={Project1} alt="waypoint" title="Waypoint" tools="React/JSX/MySQL/Express/Node/MDBoostrap" role="Front-End/UI Design/Components/Search & Sort" github="https://github.com/kapslock07/Waypoint" description="Waypoint is a social networking platform and instant messenger for gamers playing the same games to connect with each other." login="To login please use 'guest@guest.com' for email and 'guest' for password" />
                     </Col>
                     <Col xl={5} className="mt-5">
                         <Project href="http://quiet-thicket-75299.herokuapp.com/" src={Project2} alt="in2uned" title="In2uned" tools="Handlebars/MySQL/Express" tools2="Passport/jQuery/Bootstrap" role="Front-End/UI Design/Layouts & Views" github="https://github.com/kapslock07/In2uned" description="This application connects the user to the Spotify API via their account, then allows users to review songs and share them on their profile." />
@@ -38,7 +38,7 @@ function Portfolio() {
                 {/* <MDBAnimation type="fadeInUp" className="delay-1s"> */}
                 <Row className="justify-content-center hideme">
                     <Col xl={5} className="leftProject mt-5">
-                        <Project href="https://kapslock07.github.io/tune-me-in/" src={Project3} alt="Tune Me In" title="Tune Me In" tools="Javascript/jQuery/Materialize/AJAX" role="API Requests/Displaying Results" github="https://github.com/kapslock07/tune-me-in" description="Search YouTube for songs, playlists. The app will display video results with easy to copy and share links as well as artist info." />
+                        <Project href="https://kapslock07.github.io/tune-me-in/" src={Project3} alt="Tune Me In" title="Tune Me In" tools="Javascript/jQuery/Materialize/AJAX" role="API Requests/Displaying Results" github="https://github.com/kapslock07/tune-me-in" description="Search YouTube for songs, playlists, or channels. The app will display video results with easy to copy and share links as well as artist info." />
                     </Col>
                     <Col xl={5} className="mt-5">
                         <Project href="https://kapslock07.github.io/WeatherDashboard/" src={Project4} alt="Weather Dashboard" title="Weather Dashboard" tools="Javascript/jQuery/AJAX/localStorage" role="Sole Developer" github="https://github.com/kapslock07/WeatherDashboard" description="Weather application that allows users view weather data for any city and stores search history locally. Previous searches can be clicked on for updated data on those cities." />
