@@ -85,6 +85,8 @@ padding-bottom: 0px;
 .header, .skillsHeader {
 font-family: 'Montserrat', sans-serif;
 font-size: clamp(1rem, 2vw, 5rem);
+/* font-size: clamp(15px, 3vw, 42px); */
+
 
 }
 
@@ -201,6 +203,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .button {
+  font-family: 'Raleway', sans-serif;
   border: none;
   color: white;
   padding: 1vw 2vw;
@@ -220,7 +223,9 @@ background-color:rgba(95,175,201,1);
 }
 
 .login {
-  font-size: clamp(7px, 1vw, 24px);
+  font-size: clamp(6px, 0.8vw, 13px);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 h5 {
