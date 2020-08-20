@@ -248,14 +248,12 @@ font-size: clamp(15px, 3vw, 36px);
 
 .contactRow {
   margin-top: 5%;
-
 }
 
 .contactEmail, .contactPhone, .contactGithub, .contactLinkedin {
   display: inline-block;
   color: white;
   font-size: clamp(15px, 3vw, 36px);
-
   margin: auto;
 }
 
