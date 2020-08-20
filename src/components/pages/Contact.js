@@ -1,7 +1,6 @@
 import React from "react";
 import Header from '../Header';
 import { Container, Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 
 
 function Contact() {

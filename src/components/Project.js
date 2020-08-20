@@ -7,7 +7,6 @@ import { Row, Col } from 'react-bootstrap';
 function Project(props) {
     return (
         <div className="project text-center mx-auto z-depth-2">
-            {/* <a href={props.href}> */}
             <MDBView hover zoom >
                 <img src={props.src} alt={props.alt} className="img-fluid" width="100%" />
                 <MDBMask className="mask" overlay="black-strong">
@@ -27,7 +26,6 @@ function Project(props) {
                     <Row className="login justify-content-center mt-2">{props.login}</Row>
                 </MDBMask>
             </MDBView>
-            {/* </a> */}
         </div >
 
     );

@@ -25,10 +25,9 @@ function Footer() {
                             <i className="icon fa fa-2x fa-github my-3"></i>
                         </div>
                     </Link>
-                    {/* <MDBIcon fa icon="github" href="https://github.com/kapslock07" /> */}
                 </Col>
                 <Col md={1}>
-                    <div class="footer-copyright text-center my-3">© 2020
+                    <div className="footer-copyright text-center my-3">© 2020
                     </div >
                 </Col>
                 <Col md={4} />

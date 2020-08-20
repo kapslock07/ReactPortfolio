@@ -1,7 +1,7 @@
 import React from "react";
 import headshot from '../../headshot.jpg';
-import { Container, Row, Col, Accordion, Card, Button } from 'react-bootstrap';
-import { MDBIcon, MDBAnimation } from "mdbreact";
+import { Container, Row, Col } from 'react-bootstrap';
+import { MDBAnimation } from "mdbreact";
 import HTML from "../../assets/images/html.png"
 import CSS from "../../assets/images/css.png"
 import Javascript from "../../assets/images/javascript.png"
@@ -19,11 +19,7 @@ function Home() {
 
     return (
         <Container fluid >
-            {/* <Row>
-                <Col md={12}>
-                    <Header value="About Me" />
-                </Col>
-            </Row> */}
+
 
             <Row className="my-5">
                 <Col lg={4}>
@@ -53,35 +49,19 @@ function Home() {
                     </Row>
                     <MDBAnimation type="fadeInUp" className="delay-1s">
                         <Row className="skillIconRow justify-content-center mb-2 text-center">
-                            <Skills src={HTML} name="HTML5" dimension="60px" class="skillIconName pt-2" />
-                            <Skills src={CSS} name="CSS3" dimension="60px" class="skillIconName pt-2" />
-                            <Skills src={Javascript} name="Javascript" dimension="60px" class="skillIconName pt-2" />
-                            <Skills src={Bootstrap} name="Bootstrap" dimension="60px" class="skillIconName pt-2" />
-                            <Skills src={Node} name="Node" dimension="70px" class="skillIconName" />
-                            <Skills src={NPM} name="NPM" dimension="70px" class="skillIconName" />
-                            <Skills src={ReactIcon} name="React" dimension="60px" class="skillIconName pt-2" />
-                            <Skills src={MySQL} name="MySQL" dimension="70px" class="skillIconName" />
-                            <Skills src={Mongo} name="MongoDB" dimension="60px" class="skillIconName pt-2" />
+                            <Skills src={HTML} name="HTML5" dimension="60px" className="skillIconName pt-2" />
+                            <Skills src={CSS} name="CSS3" dimension="60px" className="skillIconName pt-2" />
+                            <Skills src={Javascript} name="Javascript" dimension="60px" className="skillIconName pt-2" />
+                            <Skills src={Bootstrap} name="Bootstrap" dimension="60px" className="skillIconName pt-2" />
+                            <Skills src={Node} name="Node" dimension="70px" className="skillIconName" />
+                            <Skills src={NPM} name="NPM" dimension="70px" className="skillIconName" />
+                            <Skills src={ReactIcon} name="React" dimension="60px" className="skillIconName pt-2" />
+                            <Skills src={MySQL} name="MySQL" dimension="70px" className="skillIconName" />
+                            <Skills src={Mongo} name="MongoDB" dimension="60px" className="skillIconName pt-2" />
                         </Row>
                     </MDBAnimation>
                 </div>
             </MDBAnimation>
-
-
-            {/* <Row>
-                <Col md={12} className="text-center">
-                    <Accordion>
-                        <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                            <i className="traitIcon1 fas fa-4x fa-lightbulb"></i>
-                        </Accordion.Toggle>
-                        <Accordion.Collapse eventKey="0">
-                            <Card.Body>Hello! I'm the body</Card.Body>
-                        </Accordion.Collapse>
-
-                    </Accordion>
-                </Col>
-            </Row> */}
-
 
             <MDBAnimation type="fadeInUp" className="delay-1s">
                 <Row className="mainBody mt-2 mx-auto">
