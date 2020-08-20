@@ -279,7 +279,19 @@ height: 450px;
 
 @media only screen and (max-width: 675px) {
   .resume {
-height: 650px;
+height: 750px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .resume {
+height: 600px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .resume {
+height: 500px;
   }
 }
 
