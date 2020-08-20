@@ -103,19 +103,19 @@ font-size: clamp(1rem, 2vw, 5rem);
   padding-bottom:500px;
 }
 
-.header, .skillsHeader, .icon, .footer-copyright, .skillIcon, .strengthIcon, .skillIconName {
+.header, .skillsHeader, .icon, .footer-copyright, .skillIcon, .strengthIcon {
 color: rgb(255, 255, 255)
 }
 
 .header {
   font-weight: 200;
 }
-.strengthDescription, .skillIconName {
+
+.skillIconName {
   color: rgb(255, 255, 255, 0);
   margin-top: 5px;
   margin-bottom: 20px;
   font-family: 'Raleway', sans-serif;
-  /* display: none */
 }
 
 .skillIcon:hover + .skillIconName {

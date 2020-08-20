@@ -20,7 +20,6 @@ function Home() {
     return (
         <Container fluid >
 
-
             <Row className="my-5">
                 <Col lg={4}>
                     <MDBAnimation type="fadeInLeft">
@@ -62,6 +61,7 @@ function Home() {
                     </MDBAnimation>
                 </div>
             </MDBAnimation>
+
 
             <MDBAnimation type="fadeInUp" className="delay-1s">
                 <Row className="mainBody mt-2 mx-auto">
