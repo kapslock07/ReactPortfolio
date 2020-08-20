@@ -79,7 +79,7 @@ padding-bottom: 0px;
   /* background-color: rgba(0, 0, 0, 0.3); */
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.15));
   padding: 0px 25px 0px 25px;
-  width: 85%;
+  width: 95%;
 }
 
 .header, .skillsHeader {
@@ -323,6 +323,21 @@ height: 325px;
   @media only screen and (max-width: 991px) {
     .contactRow {
       margin-left: 5%
+    }
+    .skillRow {
+      width: 33%;
+    }
+    .skillsSection {
+      width: 95%
+    }
+  }
+
+  @media only screen and (max-width: 330px) {
+    .skillRow {
+      width: 50%;
+    }
+    .skillsSection {
+      width: 85%
     }
   }
 
