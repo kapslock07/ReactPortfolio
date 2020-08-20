@@ -31,7 +31,7 @@ function Home() {
                         <div className="myDetails d-block pb-3 mx-auto">
                             <div className="myName text-center">Ryan Kaplan</div>
                             <MDBAnimation type="fadeInRight">
-                                <div className="myDescription text-center">Full Stack Web Developer | Marketing Expertise</div>
+                                <div className="myDescription text-center">Full Stack Web Developer with Marketing Expertise</div>
                             </MDBAnimation>
                         </div>
                     </MDBAnimation>
