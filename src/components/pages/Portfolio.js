@@ -26,7 +26,7 @@ function Portfolio() {
             <Slide direction="top" cascade>
                 <Row className="justify-content-center">
                     <Col xl={5} className="leftProject mt-5">
-                        <Project href="https://ancient-dusk-51587.herokuapp.com/" src={Project1} alt="waypoint" title="Waypoint" tools="React/JSX/MySQL/Express/Node/MDBoostrap" role="Front-End/UI Design/Components/Search & Sort" github="https://github.com/kapslock07/Waypoint" description="Waypoint is a social networking platform and instant messenger for gamers playing the same games to connect with each other." login="To login please use 'guest@guest.com' for email and 'guest' for password" />
+                        <Project href="https://ancient-dusk-51587.herokuapp.com/" src={Project1} alt="waypoint" title="Waypoint" tools="React/JSX/MySQL/Express/Node/MDBoostrap" role="Front-End/UI Design/Components/Search & Sort" github="https://github.com/kapslock07/Waypoint" description="A social networking platform and instant messenger for gamers to connect with each other." login="To login please use 'guest@guest.com' for email and 'guest' for password" />
                     </Col>
                     <Col xl={5} className="mt-5">
                         <Project href="http://quiet-thicket-75299.herokuapp.com/" src={Project2} alt="in2uned" title="In2uned" tools="Handlebars/MySQL/Express" tools2="Passport/jQuery/Bootstrap" role="Front-End/UI Design/Layouts & Views" github="https://github.com/kapslock07/In2uned" description="This application connects users to the Spotify API via their account, allows users to review songs and then share those reviews with other users." login="To login please use 'guest@in2uned.com' for email and 'guestguest' for password" />
