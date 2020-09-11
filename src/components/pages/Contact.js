@@ -17,25 +17,25 @@ function Contact() {
                     <div className="contactRow">
                         <a href="mailto:ryankaplan7@gmail.com">
                             <i className="fas fa-paper-plane contactEmail"></i>
-                            <div className="contactEmail ml-3"><u>ryankaplan7@gmail.com</u></div>
+                            <div className="contactEmail ml-3">ryankaplan7@gmail.com</div>
                         </a>
                     </div>
                     <div className="contactRow">
                         <a href="tel:631-662-2604">
                             <i className="fas fa-phone contactPhone"></i>
-                            <div className="contactPhone ml-3"><u>631-662-2604</u></div>
+                            <div className="contactPhone ml-3">631-662-2604</div>
                         </a>
                     </div>
                     <div className="contactRow">
                         <a href="https://www.linkedin.com/in/ryankaplan7/">
                             <i className="icon fa fa-linkedin contactLinkedin"></i>
-                            <div className="contactLinkedin ml-3"><u>LinkedIn</u></div>
+                            <div className="contactLinkedin ml-3">LinkedIn</div>
                         </a>
                     </div>
                     <div className="contactRow">
                         <a href="https://github.com/kapslock07">
                             <i className="icon fa fa-github contactGithub"></i>
-                            <div className="contactGithub ml-3"><u>Github</u></div>
+                            <div className="contactGithub ml-3">Github</div>
                         </a>
                     </div>
                 </Col>

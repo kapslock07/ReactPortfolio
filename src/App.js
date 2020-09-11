@@ -35,7 +35,7 @@ function App() {
                   return null;
                 }} />
               </Switch>
-              <Footer />
+              <Footer className="footer" />
             </div>
           </Router>
         </Col>
