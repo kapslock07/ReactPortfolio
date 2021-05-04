@@ -81,7 +81,7 @@ function Home() {
                             <p className="pBorder">I received a Bachelor of Business Administration degree with a concentration in marketing from the George Washington University in Washington D.C.  and an MBA in Entrepreneurial Studies from Pace University in NYC. These experiences helped me understand what a business needs to succeed and how to market its services to the public, but they didn’t give me the technical skills to create a platform for these businesses to connect with customers myself.</p>
                         </MDBAnimation>
                         <MDBAnimation type="fadeInUp" className="delay-2s">
-                            <p className="pBorder">I just earned a certificate for Full Stack Web Development from Rutgers University in New Jersey to give me that ability.  I completed over 100 hours of hands-on object-oriented programming challenges individually and in groups. My final two projects demonstrate my coding abilities as well as user-friendly design.</p>
+                            <p className="pBorder">In 2020 I earned a certificate for Full Stack Web Development from Rutgers University in New Jersey to give me that ability.  I completed over 100 hours of hands-on object-oriented programming challenges individually and in groups. My final two projects demonstrate my coding abilities as well as user-friendly design.</p>
                         </MDBAnimation>
                         <MDBAnimation type="fadeInUp" className="delay-2s">
                             <p>My education, experience in problem solving to overcome challenges in individual and group settings, and passion for coding make me an ideal employee/partner to work with.</p>
