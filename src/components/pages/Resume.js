@@ -13,7 +13,7 @@ function Resume() {
             </Row>
             <Row className="resumeBody mt-4 mx-auto">
                 <Col lg={12} className="mt-4 text-center">
-                    <iframe className="resume" src="https://docs.google.com/document/d/1l9a4BQZ8BApFfmloApGxkiL3U3zinEfw/preview" width="50%" height="1050" title="resume"></iframe>
+                    <iframe className="resume" src="https://drive.google.com/file/d/1l9a4BQZ8BApFfmloApGxkiL3U3zinEfw/preview" allow="autoplay" width="50%" height="1050" title="resume"></iframe>
                 </Col>
             </Row>
         </Container >
